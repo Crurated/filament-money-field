@@ -2,7 +2,7 @@
 
 use Money\Currency;
 use Money\Money;
-use Pelmered\FilamentMoneyField\Infolists\Components\MoneyEntry;
+use Crurated\FilamentMoneyField\Infolists\Components\MoneyEntry;
 use Filament\Schemas\Schema;
 
 it('formats infolist money in usd', function (): void {

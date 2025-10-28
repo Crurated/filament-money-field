@@ -1,6 +1,6 @@
 <?php
 
-namespace Pelmered\FilamentMoneyField\Tests;
+namespace Crurated\FilamentMoneyField\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
@@ -10,7 +10,7 @@ use Filament\Support\SupportServiceProvider;
 use Illuminate\Contracts\Config\Repository;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\Attributes\WithMigration;
-use Pelmered\FilamentMoneyField\FilamentMoneyFieldServiceProvider;
+use Crurated\FilamentMoneyField\FilamentMoneyFieldServiceProvider;
 use Pelmered\LaraPara\LaraParaServiceProvider;
 
 use function Orchestra\Testbench\artisan;

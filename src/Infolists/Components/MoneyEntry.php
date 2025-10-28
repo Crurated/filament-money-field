@@ -1,10 +1,10 @@
 <?php
 
-namespace Pelmered\FilamentMoneyField\Infolists\Components;
+namespace Crurated\FilamentMoneyField\Infolists\Components;
 
 use Filament\Infolists\Components\TextEntry;
 use Money\Money;
-use Pelmered\FilamentMoneyField\Concerns\HasMoneyAttributes;
+use Crurated\FilamentMoneyField\Concerns\HasMoneyAttributes;
 use Pelmered\LaraPara\MoneyFormatter\MoneyFormatter;
 
 class MoneyEntry extends TextEntry

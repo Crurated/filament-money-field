@@ -5,8 +5,8 @@ use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Schema;
 use Money\Currency;
 use Money\Money;
-use Pelmered\FilamentMoneyField\Forms\Components\MoneyInput;
-use Pelmered\FilamentMoneyField\Tests\Support\Components\TestComponent;
+use Crurated\FilamentMoneyField\Forms\Components\MoneyInput;
+use Crurated\FilamentMoneyField\Tests\Support\Components\TestComponent;
 
 it('handles empty string properly', function (): void {
     $component = Schema::make(TestComponent::make())

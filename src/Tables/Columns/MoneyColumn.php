@@ -1,10 +1,10 @@
 <?php
 
-namespace Pelmered\FilamentMoneyField\Tables\Columns;
+namespace Crurated\FilamentMoneyField\Tables\Columns;
 
 use Filament\Tables\Columns\TextColumn;
 use Money\Money;
-use Pelmered\FilamentMoneyField\Concerns\HasMoneyAttributes;
+use Crurated\FilamentMoneyField\Concerns\HasMoneyAttributes;
 use Pelmered\LaraPara\MoneyFormatter\MoneyFormatter;
 
 class MoneyColumn extends TextColumn

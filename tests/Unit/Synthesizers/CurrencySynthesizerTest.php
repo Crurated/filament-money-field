@@ -1,10 +1,10 @@
 <?php
 
-namespace Pelmered\FilamentMoneyField\Tests\Unit\Synthesizers;
+namespace Crurated\FilamentMoneyField\Tests\Unit\Synthesizers;
 
 use Livewire\Mechanisms\HandleComponents\ComponentContext;
 use Mockery;
-use Pelmered\FilamentMoneyField\Synthesizers\CurrencySynthesizer;
+use Crurated\FilamentMoneyField\Synthesizers\CurrencySynthesizer;
 use Pelmered\LaraPara\Currencies\Currency;
 
 afterEach(function (): void {

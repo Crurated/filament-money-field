@@ -1,6 +1,6 @@
 <?php
 
-namespace Pelmered\FilamentMoneyField\Tests\Support\Components;
+namespace Crurated\FilamentMoneyField\Tests\Support\Components;
 
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
@@ -8,7 +8,7 @@ use Filament\Infolists\Concerns\InteractsWithInfolists;
 use Filament\Infolists\Contracts\HasInfolists;
 use Filament\Infolists\Infolist;
 use Livewire\Component;
-use Pelmered\FilamentMoneyField\Infolists\Components\MoneyEntry;
+use Crurated\FilamentMoneyField\Infolists\Components\MoneyEntry;
 
 class InfolistTestComponent extends Component implements HasForms, HasInfolists
 {
