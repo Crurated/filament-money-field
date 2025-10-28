@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Config;
-use Pelmered\FilamentMoneyField\FilamentMoneyFieldServiceProvider;
+use Crurated\FilamentMoneyField\FilamentMoneyFieldServiceProvider;
 
 // Tests for FilamentMoneyFieldServiceProvider that avoid using reflection
 

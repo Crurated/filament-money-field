@@ -1,6 +1,6 @@
 <?php
 
-namespace Pelmered\FilamentMoneyField\Concerns;
+namespace Crurated\FilamentMoneyField\Concerns;
 
 use Closure;
 use Pelmered\LaraPara\Currencies\Currency;

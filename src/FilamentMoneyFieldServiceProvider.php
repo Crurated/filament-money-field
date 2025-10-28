@@ -1,10 +1,10 @@
 <?php
 
-namespace Pelmered\FilamentMoneyField;
+namespace Crurated\FilamentMoneyField;
 
 use Livewire\Livewire;
-use Pelmered\FilamentMoneyField\Synthesizers\CurrencySynthesizer;
-use Pelmered\FilamentMoneyField\Synthesizers\MoneySynthesizer;
+use Crurated\FilamentMoneyField\Synthesizers\CurrencySynthesizer;
+use Crurated\FilamentMoneyField\Synthesizers\MoneySynthesizer;
 use Pelmered\LaraPara\Commands\CacheCommand;
 use Pelmered\LaraPara\Commands\ClearCacheCommand;
 use Pelmered\LaraPara\Currencies\CurrencyCollection;

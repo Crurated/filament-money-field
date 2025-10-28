@@ -1,12 +1,12 @@
 <?php
 
-namespace Pelmered\FilamentMoneyField\Tests\Support\Components;
+namespace Crurated\FilamentMoneyField\Tests\Support\Components;
 
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Schemas\Schema;
 use Livewire\Component;
-use Pelmered\FilamentMoneyField\Forms\Components\MoneyInput;
+use Crurated\FilamentMoneyField\Forms\Components\MoneyInput;
 
 class TestComponent extends Component implements HasForms
 {

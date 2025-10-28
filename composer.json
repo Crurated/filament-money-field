@@ -1,15 +1,15 @@
 {
-    "name": "pelmered/filament-money-field",
+    "name": "crurated/filament-money-field",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Pelmered\\FilamentMoneyField\\": "src/"
+            "Crurated\\FilamentMoneyField\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Pelmered\\FilamentMoneyField\\Tests\\": "tests/",
+            "Crurated\\FilamentMoneyField\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/",
             "Workbench\\Database\\Factories\\": "workbench/database/factories/",
             "Workbench\\Database\\Seeders\\": "workbench/database/seeders/"
@@ -50,7 +50,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Pelmered\\FilamentMoneyField\\FilamentMoneyFieldServiceProvider"
+                "Crurated\\FilamentMoneyField\\FilamentMoneyFieldServiceProvider"
             ]
         }
     },

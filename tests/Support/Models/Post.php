@@ -1,13 +1,13 @@
 <?php
 
-namespace Pelmered\FilamentMoneyField\Tests\Support\Models;
+namespace Crurated\FilamentMoneyField\Tests\Support\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Pelmered\FilamentMoneyField\Casts\CurrencyCast;
-use Pelmered\FilamentMoneyField\Casts\MoneyCast;
-use Pelmered\FilamentMoneyField\Tests\Support\Database\Factories\PostFactory;
+use Crurated\FilamentMoneyField\Casts\CurrencyCast;
+use Crurated\FilamentMoneyField\Casts\MoneyCast;
+use Crurated\FilamentMoneyField\Tests\Support\Database\Factories\PostFactory;
 
 class Post extends Model
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Pelmered\FilamentMoneyField\Forms\Rules;
+namespace Crurated\FilamentMoneyField\Forms\Rules;
 
 use Closure;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Money\Exception\ParserException;
-use Pelmered\FilamentMoneyField\Concerns\FormatsAttributes;
-use Pelmered\FilamentMoneyField\Forms\Components\MoneyInput;
+use Crurated\FilamentMoneyField\Concerns\FormatsAttributes;
+use Crurated\FilamentMoneyField\Forms\Components\MoneyInput;
 use Pelmered\LaraPara\MoneyFormatter\MoneyFormatter;
 
 readonly class MaxValueRule implements ValidationRule

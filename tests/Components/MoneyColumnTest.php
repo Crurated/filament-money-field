@@ -1,6 +1,6 @@
 <?php
 
-use Pelmered\FilamentMoneyField\Tables\Columns\MoneyColumn;
+use Crurated\FilamentMoneyField\Tables\Columns\MoneyColumn;
 
 it('formats money column state with default currency (USD)', function (): void {
     $column = MoneyColumn::make('price');

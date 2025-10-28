@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Config;
 use Money\Currency;
 use Money\Money;
-use Pelmered\FilamentMoneyField\Tables\Columns\MoneyColumn;
+use Crurated\FilamentMoneyField\Tables\Columns\MoneyColumn;
 
 it('formats money value correctly', function (): void {
     $column = MoneyColumn::make('amount');

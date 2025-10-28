@@ -1,17 +1,16 @@
 <?php
 
-namespace Pelmered\FilamentMoneyField\Forms\Components;
+namespace Crurated\FilamentMoneyField\Forms\Components;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Form;
 use Filament\Support\RawJs;
 use Illuminate\Database\Eloquent\Model;
 use Money\Money;
-use Pelmered\FilamentMoneyField\Concerns\HasMoneyAttributes;
-use Pelmered\FilamentMoneyField\Forms\Rules\MaxValueRule;
-use Pelmered\FilamentMoneyField\Forms\Rules\MinValueRule;
+use Crurated\FilamentMoneyField\Concerns\HasMoneyAttributes;
+use Crurated\FilamentMoneyField\Forms\Rules\MaxValueRule;
+use Crurated\FilamentMoneyField\Forms\Rules\MinValueRule;
 use Pelmered\LaraPara\Currencies\Currency;
 use Pelmered\LaraPara\Currencies\CurrencyRepository;
 use Pelmered\LaraPara\Enum\CurrencySymbolPlacement;
@@ -38,14 +37,14 @@ class MoneyInput extends TextInput
                 return Action::make('changeCurrency')
                     ->icon('heroicon-m-arrow-path')
                     ->tooltip('Change currency')
-                    ->form([
+                    ->schema([
                         Select::make('currency')
                             ->label('Currency')
                             ->options($currencies->toSelectArray())
                             ->required()
                             ->live(),
                     ])
-                    ->action(function (array $data, MoneyInput $component, Model $record, Form $form): void {
+                    ->action(function (array $data, MoneyInput $component, Model $record): void {
                         $money    = $record->{$component->name};
                         $currency = $data['currency'];
 
