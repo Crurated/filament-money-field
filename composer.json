@@ -15,12 +15,6 @@
             "Workbench\\Database\\Seeders\\": "workbench/database/seeders/"
         }
     },
-    "authors": [
-        {
-            "name": "Peter Elmered",
-            "email": "peter@elmered.com"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
